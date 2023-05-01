@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T21:55:11.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.8" etag="GqlyWC8xKlnFUoKT5DeF" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T22:03:36.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="jDYzmfu0UKRaQdXa6rCR" version="21.1.8" type="github">
   <diagram name="Page-1" id="sON8wua3yu1hsd1mDR6S">
-    <mxGraphModel>
+    <mxGraphModel dx="1709" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ModmG-4oIMDAj_y6NMhw-1" value="DNS load balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ModmG-4oIMDAj_y6NMhw-2" value="Web server&lt;br&gt;(react.js, typescript, next.js)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ModmG-4oIMDAj_y6NMhw-3" value="Load balancer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ModmG-4oIMDAj_y6NMhw-4" value="API server...&lt;br&gt;(strapi / sanity?)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ModmG-4oIMDAj_y6NMhw-5" value="RDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="800" y="140" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ModmG-4oIMDAj_y6NMhw-6" value="blob&lt;br&gt;for image/video/files" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="790" y="260" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ModmG-4oIMDAj_y6NMhw-7" value="strapi is possible to have 2 db" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="285" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
